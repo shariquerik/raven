@@ -1,0 +1,7 @@
+{
+	"title": "Raven",
+	"logo": "/assets/raven/raven-logo.png",
+	"default_surface": {
+		"applet": "chat"
+	}
+}

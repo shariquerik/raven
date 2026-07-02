@@ -1,0 +1,6 @@
+{
+	"appletId": "chat",
+	"label": "Chat",
+	"fileName": "chat.js",
+	"kind": "framed"
+}

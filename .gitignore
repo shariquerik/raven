@@ -10,6 +10,7 @@ mobile/dev-dist
 raven/public/raven
 raven/public/raven_v3
 raven/public/node_modules
+raven/public/os-applets
 raven/www/raven.html
 raven/www/raven_v3.html
 *.env

@@ -1,0 +1,16 @@
+{
+  "name": "raven-os-applet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Frappe OS applet (ADR-0009) shipped by raven — runtime-loaded native ESM that frames the live Raven SPA.",
+  "scripts": {
+    "build": "yarn --cwd ../../../../frappe/frappe-os build-applet \"$INIT_CWD/vite.config.js\"",
+    "dev": "yarn --cwd ../../../../frappe/frappe-os dev-applet \"$INIT_CWD/vite.config.js\""
+  },
+  "peerDependencies": {
+    "vue": "*",
+    "frappe-ui": "*",
+    "@frappe-os/api": "*"
+  }
+}
