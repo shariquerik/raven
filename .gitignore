@@ -10,12 +10,7 @@ mobile/dev-dist
 raven/public/raven
 raven/public/raven_v3
 raven/public/node_modules
-# OS applet build output is ignored, EXCEPT the shipped applet asset: it must
-# arrive with the app so Frappe Cloud serves /assets/raven/os-applets/chat.js
-# without depending on the deploy build. Rebuild + commit when the applet source
-# changes (cd raven/os-applets/raven && yarn build).
-raven/public/os-applets/*
-!raven/public/os-applets/chat.js
+raven/public/os-applets
 raven/www/raven.html
 raven/www/raven_v3.html
 *.env
